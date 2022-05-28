@@ -1,0 +1,55 @@
+header{
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#name span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 200;
+    color: black;
+    font-size: x-large;
+    transition: 0.8s ease-in-out;
+}
+
+#name{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: 200;
+    color: black;
+    font-size: x-large;
+    transition: 0.8s ease-in-out;
+    border-bottom: white 5rem;
+}
+
+.navbar-brand :hover{
+    transform: scaleX(2, 0.5);
+    letter-spacing: 5px;
+}
+
+.nav-item a{
+    color: black !important;
+    font-size: medium;
+    transition: 0.5s ease;
+}
+
+.nav-item :hover{
+    transform: scaleY(2,0.5);
+    letter-spacing: 2px;
+}
+
+.fa-bars{
+    color: black;
+    transition: 0.5s ease;
+}
+
+.fa-bars:hover{
+    color: black;
+    border: 4px solid #ffa260;
+    transform: scaleY(2,0.5);
+}
