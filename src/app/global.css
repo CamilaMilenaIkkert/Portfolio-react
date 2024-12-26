@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@1,125,600&family=Quicksand:wght@300&display=swap');
+
+@layer base {
+  :root {
+    --background: #ECEBDE;
+    --foreground: #A59D84;
+    --primary: #2b2b2b;
+    --secondary: #f5f5f5;
+    --accent: #C1BAA1;
+    --radius: 0.5rem;
+    --body: "Quicksand", serif;
+    --title: "Archivo", serif;
+  }
+}
+
+
+
+
+
