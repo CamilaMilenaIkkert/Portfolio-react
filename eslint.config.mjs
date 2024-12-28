@@ -16,6 +16,7 @@ const eslintConfig = [
 module.exports = {
   eslint: {
     ignoreDuringBuilds: true,
+    ignorePatterns: ["dist/**"],
   },
 };
 
