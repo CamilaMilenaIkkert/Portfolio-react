@@ -9,20 +9,22 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
-				background: "#ECEBDE",
-				foreground: "#A59D84",
-				primary: "#2b2b2b",
-				secondary: "#f5f5f5",
-				accent: "#C1BAA1",
+				background: "#1C1C1C",
+				altBackground: "#2D2D2D",
+				accent: "#D4AF37",
+				primaryText: "#E5E5E5",
+				secondaryText: "#A9A9A9",
+				surface: "#1C1C1C",
 			},
 			fontFamily: {
-				title: ['Archivo', 'sans-serif'],
-				body: ['Quicksand', 'sans-serif']
+				title:  ['var(--font-amatic)'],
+				body:['var(--font-playwrite)'],
 			},
 			screens: {
-				sm: '375px',
+				sm: '640px',
 				md: '768px',
 				lg: '1024px',
+				xl: '1280px',
 			},
 			listStyleType: {
 				none: 'none',

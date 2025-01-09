@@ -5,10 +5,10 @@ import Link from 'next/link';
 
 const Header: React.FC = () => {
     return (
-        <header className="bg-foreground h-auto p-10 flex items-center w-[100%]">
-            <div className="container flex justify-between items-center">
+        <header className="h-auto md:p-3 sm:p-8 flex items-center w-[100%] shadow-xl">
+            <div className="container flex justify-between items-center ml-8">
                     <Link href="/">
-                        <Image src="/CI-light-sinFondo.png" alt='Logo' width={100} height={100}/>
+                        <Image src="/CI-light-sinFondo.png" alt='Logo' width={120} height={100}/>
                     </Link>
                 <Navbar/>
             </div>
