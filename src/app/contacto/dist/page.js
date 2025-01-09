@@ -48,7 +48,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 exports.__esModule = true;
-var react_1 = require("react"); // Importa useState desde React
+var react_1 = require("react");
 var zod_1 = require("@hookform/resolvers/zod");
 var react_hook_form_1 = require("react-hook-form");
 var zod_2 = require("zod");
