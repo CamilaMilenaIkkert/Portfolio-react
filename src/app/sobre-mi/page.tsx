@@ -49,16 +49,22 @@ const SobreMi = () => {
             </div>
 
             {/* About section */}
-            <div className="bg-surface my-20 md:flex-row md:w-[75vw]  md:py-[50px] md:px-[30px] rounded-[24px] flex items-center shadow-xl sm:flex-col sm:w-[100%] sm:p-8">
-                <Image src="/profile-1.jpeg" alt="Pofile image" width={280} height={300} className="md:w-[280px] md:h-[300px] object-cover md:ml-[-60px] md:mr-[30px] md:rounded-[24px] shadow-xl sm:w-[45vw] sm:h-[45vw] sm:rounded-[50%] sm:py-0 opacity-80"></Image>
-                <div>
-                    <h2 className="font-title text-[4rem] font-bold text-accent sm:mx-8 sm:text-[3rem]">Sobre mí</h2>
-                    <div>
-                        <p className="mt-4 text-primary font-body sm:p-8">
-                            Soy estudiante de Desarrollo de Software Libre en la Universidad Nacional del Litoral. Me apasiona aprender constantemente nuevas tecnologías que complementen mi formación académica y me permitan crecer tanto a nivel personal como profesional. Me destaco por ser una persona dedicada y detallista en cada tarea o proyecto que realizo, siempre priorizando la responsabilidad de cumplir con las entregas en tiempo y forma.<br />
-                            Aspiro a poder encontrar un espacio colaborativo que me permita seguir adquiriendo conocimientos mientras contribuyo con mi creatividad y habilidades al logro de objetivos comunes.
-                        </p>
-                    </div>
+            <div className="bg-surface my-20 flex flex-col md:flex-row md:w-[75vw] md:py-[50px] md:px-[30px] rounded-[24px] items-center shadow-xl sm:w-full sm:p-6">
+                <Image
+                    src="/profile-1.jpeg"
+                    alt="Profile image"
+                    width={280}
+                    height={300}
+                    className="w-[40vw] h-[40vw] max-w-[280px] max-h-[300px] object-cover rounded-[24px] shadow-xl sm:w-[50vw] sm:h-[50vw] sm:rounded-full"
+                />
+                <div className="text-center md:text-left md:ml-6">
+                    <h2 className="font-title text-[3rem] font-bold text-accent sm:text-[2.5rem]">
+                        Sobre mí
+                    </h2>
+                    <p className="mt-4 text-primary font-body px-4 sm:px-6">
+                        Soy estudiante de Desarrollo de Software Libre en la Universidad Nacional del Litoral. Me apasiona aprender constantemente nuevas tecnologías que complementen mi formación académica y me permitan crecer tanto a nivel personal como profesional. Me destaco por ser una persona dedicada y detallista en cada tarea o proyecto que realizo, siempre priorizando la responsabilidad de cumplir con las entregas en tiempo y forma.<br />
+                        Aspiro a poder encontrar un espacio colaborativo que me permita seguir adquiriendo conocimientos mientras contribuyo con mi creatividad y habilidades al logro de objetivos comunes.
+                    </p>
                 </div>
             </div>
 
