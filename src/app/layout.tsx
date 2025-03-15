@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "Camila Ikkert",
   description: "Portfolio personal creado con next.js",
   icons: {
-    icon: "/icon.svg"
+    icon: "/icons/icon.svg"
   },
 };
 

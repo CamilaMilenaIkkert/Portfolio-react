@@ -19,7 +19,7 @@ exports.metadata = {
     title: "Camila Ikkert",
     description: "Portfolio personal creado con next.js",
     icons: {
-        icon: "/icon.svg"
+        icon: "/icons/icon.svg"
     }
 };
 function RootLayout(_a) {

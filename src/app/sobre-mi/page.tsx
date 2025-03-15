@@ -6,7 +6,7 @@ import Image from 'next/image';
 const SobreMi = () => {
 
     const [text, setText] = useState("");
-    const phrases = ["<Frontend developer./>", "<Estudiante./>", "<Creativa./>"];
+    const phrases = ["<Frontend Developer./>", "<Code & Design./>", "<Creative Mind./>"];
     const typingSpeed = 100;
 
     useEffect(() => {
@@ -94,7 +94,6 @@ const SobreMi = () => {
             <div className="mt-8 flex justify-center items-center">
                 <Button
                     className="text-accent bg-background text-[1rem] h-auto border-accent border hover:bg-accent hover:text-[#121212] hover:scale-110 py-2 px-4 rounded-lg  transition-all duration-300 ease-in-out hover:shadow-xl"
-                    variant="secondary"
                     onClick={() => window.open('/cv.pdf', '_blank')}
                 >
                     Descargar CV

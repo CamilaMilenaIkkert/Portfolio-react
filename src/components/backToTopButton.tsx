@@ -28,7 +28,7 @@ const BackToTopButton = () => {
 
     return (
         <Button onClick={scrollToTop} className={`fixed bottom-5 right-5 sm:right-12 z-50  p-3 shadow-lg transition-opacity duration-300 ${isVisible ? "opacity-100" : "opacity-0"}`} aria-label="Back to the top">
-            <Image src="/toTopButton.svg" alt="Back to the top" width={30} height={30}></Image>
+            <Image src="/icons/toTopButton.svg" alt="Back to the top" width={30} height={30}></Image>
         </Button>
     );
 };
